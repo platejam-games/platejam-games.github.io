@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#1f63d8" />
+    <title>Plate Jam challenge</title>
+    <meta name="description" content="A friend challenges you on Plate Jam! Beat their score." />
+    <meta property="og:title" content="Plate Jam challenge" />
+    <meta property="og:description" content="A friend challenges you on Plate Jam! Can you beat their score?" />
+    <meta property="og:image" content="https://platejam-games.github.io/assets/logo.png" />
+    <meta name="robots" content="noindex" />
+    <link rel="icon" href="../assets/icon-192.png" />
+    <link rel="apple-touch-icon" href="../assets/icon-192.png" />
+    <link rel="stylesheet" href="../assets/landing.css" />
+  </head>
+  <body>
+    <main>
+      <img class="logo" src="../assets/logo.png" alt="Plate Jam" />
+      <section id="challenge" class="card" aria-labelledby="challenge-title">
+        <img class="chef" src="../assets/chef.png" alt="" />
+        <h1 id="challenge-title">Plate Jam</h1>
+        <p id="challenge-level" class="level"></p>
+        <p id="challenge-tobeat" class="tobeat"></p>
+        <div class="score">
+          <span id="challenge-stars" class="stars"></span>
+          <span>
+            <span id="challenge-time" class="time"></span><br />
+            <span id="challenge-rating" class="rating"></span>
+          </span>
+        </div>
+        <a id="btn-open" class="btn btn-open" href="platejam://c/">Open in Plate Jam</a>
+      </section>
+      <div class="stores">
+        <a id="btn-appstore" class="btn btn-store" href="#" rel="noopener">Download on the App Store</a>
+        <a id="btn-play" class="btn btn-store" href="#" rel="noopener">Get it on Google Play</a>
+      </div>
+      <p id="howto" class="howto"></p>
+      <p class="foot">Plate Jam</p>
+    </main>
+    <script src="../assets/landing.js"></script>
+  </body>
+</html>

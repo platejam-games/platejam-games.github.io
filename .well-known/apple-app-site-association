@@ -1,0 +1,13 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appIDs": ["TEAMID.com.platejam.game"],
+        "appID": "TEAMID.com.platejam.game",
+        "components": [{ "/": "/c/*", "comment": "Challenge a friend links" }, { "/": "/c", "comment": "Challenge a friend links" }],
+        "paths": ["/c/*", "/c"]
+      }
+    ]
+  }
+}
