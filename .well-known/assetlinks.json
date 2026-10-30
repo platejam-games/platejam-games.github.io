@@ -4,7 +4,10 @@
     "target": {
       "namespace": "android_app",
       "package_name": "com.platejam.game",
-      "sha256_cert_fingerprints": ["REPLACE:WITH:THE:PLAY:APP:SIGNING:SHA256:FINGERPRINT"]
+      "sha256_cert_fingerprints": [
+        "59:3A:25:AB:B7:E3:B4:5D:68:4C:DD:3A:7A:2C:AE:A3:77:EA:AC:F2:9F:F8:99:48:29:62:4C:77:32:BB:2D:F1",
+        "3B:A8:6B:6D:A4:EB:C5:8C:34:9C:A4:FF:BA:B0:DC:5F:C5:25:0C:61:26:7C:7E:3A:0D:5A:88:83:CF:22:EF:EB"
+      ]
     }
   }
 ]
