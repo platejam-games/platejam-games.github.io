@@ -3,8 +3,8 @@
     "apps": [],
     "details": [
       {
-        "appIDs": ["TEAMID.com.platejam.game"],
-        "appID": "TEAMID.com.platejam.game",
+        "appIDs": ["85XQB94NM8.com.platejam.game"],
+        "appID": "85XQB94NM8.com.platejam.game",
         "components": [{ "/": "/c/*", "comment": "Challenge a friend links" }, { "/": "/c", "comment": "Challenge a friend links" }],
         "paths": ["/c/*", "/c"]
       }
